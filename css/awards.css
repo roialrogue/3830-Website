@@ -1,0 +1,98 @@
+/* Awards Timeline Styles */
+.awards-timeline {
+  padding: 60px 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.awards-timeline h2 {
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  color: #ffd700;
+}
+
+.awards-timeline ul {
+  color: #ffd700;
+  font-size: 1.2em;
+  margin-bottom: 0;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+/*.awards-timeline li{
+    margin-bottom: 5px;
+}
+/* Timeline Container */
+.timeline {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 0;
+  max-width: 1000px;
+}
+
+/* Individual Timeline Entries */
+.timeline-entry {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.timeline-entry:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+/* Timeline Icon and Image */
+.timeline-icon {
+  width: 320px;
+  height: 320px;
+  border-radius: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding-right: 50px;
+}
+
+.timeline-icon img {
+  width: 320px;
+  height: auto;
+  border-radius: 20%;
+}
+
+/* Timeline Content */
+.timeline-content {
+  background-color: #4b0082;
+  padding: 20px;
+  padding-top: 0px;
+  border-radius: 15px;
+  margin-top: 124px;
+  max-width: 600px;
+  box-shadow: 0 4px 0.625em rgba(0, 0, 0, 0.2);
+  color: white;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.timeline-content h3 {
+  padding-top: 20px;
+  margin: 0;
+  font-size: 1.8em;
+  color: #ffd700;
+}
+
+.timeline-content p {
+  margin-top: 0.625em;
+  font-size: 1.2em;
+}
+
+/* Timeline Connector */
+
+.timeline-entry:nth-child(odd) .timeline-content {
+  margin-left: 20px;
+}
+
+.timeline-entry:nth-child(even) .timeline-content {
+  margin-right: 60px;
+}
